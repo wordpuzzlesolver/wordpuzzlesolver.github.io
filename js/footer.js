@@ -68,6 +68,7 @@ class Footer {
               <a href="terms">Terms of Use</a>
               <span aria-hidden="true">·</span>
               <a href="contact">Contact</a>
+              <a href="disclaimer">Disclaimer</a>
             </div>
           </div>
         </div>
