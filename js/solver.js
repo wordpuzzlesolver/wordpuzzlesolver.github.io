@@ -10,7 +10,7 @@ class WordSolver {
     try {
       const response = await fetch('data/words.txt');
       const text = await response.text();
-      this.wordList = text.split('\n').map(w => w.trim().toLowerCase()).filter(w => w.length > 0);
+      this.wordList = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(w => w.length > 0);
       this.loaded = true;
       document.dispatchEvent(new CustomEvent('wordsLoaded', { detail: { count: this.wordList.length } }));
     } catch (err) {
