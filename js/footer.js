@@ -21,9 +21,7 @@ class Footer {
             </a>
             <p class="footer-desc">The most powerful free word puzzle solver online. Unscramble letters, solve anagrams, and find hidden words instantly using our comprehensive English dictionary.</p>
             <div class="footer-social" aria-label="Social links">
-              <a href="#" aria-label="Twitter/X" class="social-btn">𝕏</a>
-              <a href="#" aria-label="Facebook" class="social-btn">f</a>
-              <a href="#" aria-label="Reddit" class="social-btn">r</a>
+              <a href="#" aria-label="Twitter/X" class="social-btn">𝕏</a>              
             </div>
           </div>
 
@@ -54,7 +52,7 @@ class Footer {
                 <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#strategies">Word Strategies</a></li>
                 <li><a href="#tips">Pro Tips</a></li>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="about">About Us</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ul>
             </div>
@@ -65,11 +63,11 @@ class Footer {
           <div class="footer-container footer-bottom-inner">
             <p class="copyright">© ${new Date().getFullYear()} <strong>WordPuzzleSolver</strong> — wordpuzzlesolver.github.io. All rights reserved.</p>
             <div class="footer-legal">
-              <a href="#">Privacy Policy</a>
+              <a href="privacy">Privacy Policy</a>
               <span aria-hidden="true">·</span>
-              <a href="#">Terms of Use</a>
+              <a href="terms">Terms of Use</a>
               <span aria-hidden="true">·</span>
-              <a href="#">Contact</a>
+              <a href="contact">Contact</a>
             </div>
           </div>
         </div>
