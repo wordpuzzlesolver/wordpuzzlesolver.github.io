@@ -8,7 +8,7 @@ class WordSolver {
 
   async loadWords() {
     try {
-      const response = await fetch('data/words.txt');
+      const response = await fetch('/words.txt');
       const text = await response.text();
       this.wordList = text.split(/\r?\n/).map(w => w.trim().toLowerCase()).filter(w => w.length > 0);
       this.loaded = true;
